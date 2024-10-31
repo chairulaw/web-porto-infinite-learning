@@ -231,6 +231,17 @@
   border-radius: 2rem;
 }
 
+@media (max-width: 768px) {
+  .about-left,
+  .about-right {
+    text-align: center;
+  }
+
+  .about-right {
+    margin-top: 20px;
+  }
+}
+
 /* skills */
 #skills {
   color: #000;
