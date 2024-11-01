@@ -103,6 +103,7 @@
     margin-top: 1rem; 
   }
 }
+/* END Header */
 
 
 /* Hero Section */
@@ -177,6 +178,7 @@
     height: 150px;
   }
 }
+/* END Header */
 
  /* About */
 #about {
@@ -241,6 +243,7 @@
     margin-top: 20px;
   }
 }
+/* END About */
 
 /* skills */
 #skills {
@@ -406,6 +409,7 @@ small {
     max-height: 300px;
   }
 }
+/* END Project */
 
 .cv-contact {
   background-color: #f5f5f5;
@@ -481,6 +485,7 @@ small {
 .behance {
   background-image: url("assets/behance-logo-icon-free-png.webp");
 }
+/* END Contact */
 
   /* Footer */
   footer {
@@ -518,4 +523,5 @@ small {
       grid-template-columns: 1fr;
     }
   }
+  /* END Footer */
   
