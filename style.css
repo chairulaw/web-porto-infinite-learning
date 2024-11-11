@@ -417,20 +417,10 @@ small {
   border: 1px solid #ccc;
   border-radius: 10px;
   margin: 20px 0;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
 }
 
-.cv-contact h2 {
+.cv-contact h2, .cv-contact h3 {
   color: #333;
-  font-size: 2rem;
-}
-
-.cv-contact h3 {
-  color: #333;
-  font-size: 1.5rem;
 }
 
 .download-btn {
@@ -442,15 +432,7 @@ small {
   text-decoration: none;
   border-radius: 10px;
   margin: 20px 0;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
   transition: color 0.3s ease-in-out, transform 0.3s ease-in-out, opacity 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  -webkit-transition: color 0.3s ease-in-out, transform 0.3s ease-in-out, opacity 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  -moz-transition: color 0.3s ease-in-out, transform 0.3s ease-in-out, opacity 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  -ms-transition: color 0.3s ease-in-out, transform 0.3s ease-in-out, opacity 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  -o-transition: color 0.3s ease-in-out, transform 0.3s ease-in-out, opacity 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .download-btn:hover {
@@ -466,26 +448,16 @@ small {
   gap: 20px;
 }
 
-.icon {
-  display: block;
-  width: 40px;
-  height: 40px;
-  background-size: contain;
-  background-repeat: no-repeat;
+.icon i {
+  font-size: 35px; /* Sesuaikan ukuran dengan kebutuhan */
+  color: #000000; /* Warna ikon */
+  transition: color 0.3s ease-in-out;
 }
 
-.whatsapp {
-  background-image: url("assets/png-clipart-black-whatsapp-logo-whatsapp-computer-icons-whatsapp-logo-monochrome-thumbnail.png");
+.icon:hover i {
+  color: #adb5bd; /* Warna ikon saat di-hover */
 }
 
-.linkedin {
-  background-image: url("assets/38669.png");
-}
-
-.behance {
-  background-image: url("assets/behance-logo-icon-free-png.webp");
-}
-/* END Contact */
 
   /* Footer */
   footer {
