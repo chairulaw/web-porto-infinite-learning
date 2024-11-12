@@ -449,13 +449,19 @@ small {
 }
 
 .icon i {
-  font-size: 35px; /* Sesuaikan ukuran dengan kebutuhan */
-  color: #000000; /* Warna ikon */
-  transition: color 0.3s ease-in-out;
+  display: inline-block;
+  font-size: 35px;
+  color: #000000;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  -moz-transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  -ms-transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .icon:hover i {
-  color: #adb5bd; /* Warna ikon saat di-hover */
+  color: #838383; /* Warna ikon saat di-hover */
+  transform: translateY(-10px);
 }
 
 
