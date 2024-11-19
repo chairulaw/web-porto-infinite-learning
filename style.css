@@ -411,12 +411,13 @@ small {
 }
 /* END Project */
 
+
+/* Contact */
 .cv-contact {
   background-color: #f5f5f5;
   padding: 40px 0;
   border: 1px solid #ccc;
   border-radius: 10px;
-  margin: 20px 0;
 }
 
 .cv-contact h2, .cv-contact h3 {
@@ -427,7 +428,7 @@ small {
   display: inline-block;
   background-color: #fff;
   color: #000;
-  padding: 10px 20px;
+  padding: 10px 25px;
   border: 2px solid #000;
   text-decoration: none;
   border-radius: 10px;
